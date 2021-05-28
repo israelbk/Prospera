@@ -1,0 +1,47 @@
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+}
+
+.navigation-tabs {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    flex-basis: 100vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    font-size: medium;
+    outline: none;
+}
+
+.nav-link.left-border {
+    border-left: 1px solid white;
+}
+
+.nav-link.active {
+    background-color: #24344d;
+    font-weight: bold;
+    border-bottom: #24344d 1px solid;
+}
+
+.nav-link:hover .scale-text {
+    font-size: large;
+}
+
+.clickable-option {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.router {
+    flex-basis: 94.5%;
+    background-color: rgb(25, 34, 49);
+}
