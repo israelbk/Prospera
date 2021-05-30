@@ -8,23 +8,12 @@ html {
     width: 100vw;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
     position: relative;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 * {
     font-family: 'heebo';
     color: white;
 }
-
-
-/* 
-html,
-body {
-    height: 100%;
-}
-
-body {
-    margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-} */

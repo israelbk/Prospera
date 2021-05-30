@@ -1,0 +1,11 @@
+.theater-tab-container {
+    display: flex;
+}
+
+.search-box-container {
+    width: 30%;
+}
+
+.cards-display-container {
+    width: 70%;
+}

@@ -1,5 +1,8 @@
-<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
-    <mat-card *ngFor="let card of (cardsData | async)" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
+<div class="cards-list-container">
+    <div *ngFor="let card of (cardsData | async)">
         <app-display-card [title]="card.title" [subtitle]="card.subtitle" [imageUrl]="card.imageUrl" [content]="card.content"></app-display-card>
-    </mat-card>
+    </div>
 </div>
+
+<!-- fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px" -->
+<!-- fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)" -->

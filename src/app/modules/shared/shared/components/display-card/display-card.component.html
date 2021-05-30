@@ -1,4 +1,4 @@
-<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
+<!-- <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
     <mat-card-header>
         <div mat-card-avatar class="example-header-image"></div>
         <mat-card-title>{{title}}</mat-card-title>
@@ -10,4 +10,17 @@
             {{content}}
         </p>
     </mat-card-content>
+</div> -->
+
+<div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img [src]="imageUrl" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+            <h1>{{title}}</h1>
+            <p>{{subtitle}}</p>
+            <p>{{content}}</p>
+        </div>
+    </div>
 </div>
