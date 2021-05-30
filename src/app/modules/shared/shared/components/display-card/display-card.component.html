@@ -1,0 +1,13 @@
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{title}}</mat-card-title>
+        <mat-card-subtitle>{{subtitle}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="imageUrl" alt="Photo of {{title}}">
+    <mat-card-content>
+        <p>
+            {{content}}
+        </p>
+    </mat-card-content>
+</div>

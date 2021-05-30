@@ -18,7 +18,7 @@
     align-items: center;
     height: 100%;
     justify-content: center;
-    font-size: medium;
+    font-size: x-large;
     outline: none;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .nav-link:hover .scale-text {
-    font-size: large;
+    font-size: xx-large;
 }
 
 .clickable-option {
